@@ -2,6 +2,8 @@
 
 This is a simple example demonstrating how to set up a Flask server that connects to a model provider using the OpenAI API and streams responses to a client using Server-Sent Events (SSE).
 
+It is important that the events served are formatted correctly according to the SSE spec. The spec can be found [here](https://html.spec.whatwg.org/multipage/server-sent-events.html).
+
 ## Installation
 Clone the repository
 ```
