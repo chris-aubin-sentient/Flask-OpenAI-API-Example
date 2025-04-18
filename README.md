@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python3 flask_sse_server.py
 ```
 
-#### 5. Use a tool like [CuRL](https://curl.se/) or [Postman](https://www.postman.com/) to query the server:
+#### 5. Use a tool like [CuRL](https://curl.se/) or [Postman](https://www.postman.com/) to query the server
 ```
 curl --location --request GET 'http://127.0.0.1:5000/query' \
 --header 'Content-Type: application/json' \
